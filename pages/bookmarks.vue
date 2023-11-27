@@ -30,7 +30,7 @@
 const description =
   "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
 useSeoMeta({
-  title: "Bookmarks | Fayaz Ahmed",
+  title: "Bookmarks | Mohammed Zeeshan",
   description,
 });
 
@@ -47,8 +47,8 @@ const bookmarks = [
   },
   {
     id: 3,
-    label: "Circuit design stock image",
-    url: "https://images.unsplash.com/photo-1592659762303-90081d34b277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2873&q=80",
+    label: "Carnegie Mellon's intro functional programming lectures",
+    url: "https://brandonspark.github.io/150/",
   },
   {
     id: 4,
@@ -67,13 +67,13 @@ const bookmarks = [
   },
   {
     id: 7,
-    label: "Octupos Illustration",
-    url: "https://refine.new/",
+    label: "Learn Vue Step by Step, from just one line of 'Hello, World'",
+    url: "https://ubugeeei.github.io/chibivue/en/",
   },
   {
     id: 8,
-    label: "Metalab agency",
-    url: "https://www.metalab.com/",
+    label: "Elixir Enum Cheatsheet",
+    url: "https://angelika.me/elixir-enum-cheatsheet/",
   },
   {
     id: 9,
@@ -87,8 +87,8 @@ const bookmarks = [
   },
   {
     id: 11,
-    label: "ASCII Flow - Text based image drawing",
-    url: "https://asciiflow.com/#/",
+    label: "Elixir and Phoenix can do it all",
+    url: "https://fly.io/phoenix-files/elixir-and-phoenix-can-do-it-all/",
   },
   {
     id: 12,

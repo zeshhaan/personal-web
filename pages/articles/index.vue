@@ -11,13 +11,15 @@
 
 <script setup>
 const description =
-  "All of my long-form thoughts on programming, user interfaces, product design, and more, collected in chronological order.";
+  "All of my long-form thoughts on programming, user interfaces, life, and more, collected in chronological order.";
 useSeoMeta({
-  title: "Articles | Fayaz Ahmed",
+  title: "Articles | Mohammed Zeeshan",
   description,
 });
 
 const { data: articles } = await useAsyncData("all-articles", () =>
-  queryContent("/articles").find()
+  queryContent("/articles")
+    .where({ draft: { $ne: true } }) // Exclude draft articles
+    .find()
 );
 </script>

@@ -3,6 +3,7 @@ title: "How to Use Two GitHub Accounts on a Macbook the Right Way"
 description: "Using multiple GitHub accounts on a Macbook can be challenging, but there's a way to do it correctly."
 date: "Nov 2, 2023"
 slug: "how-to-use-two-github-accounts-on-a-macbook-the-right-way"
+draft: true
 ---
 
 Recently, I joined HeadshotPro as a full-stack developer, completed my onboarding, and received an invitation to their GitHub organization. The catch? It was sent to my new email address, which was perfectly fine, except that I had already linked my personal GitHub account to my Macbook, which I use a lot, since I make a lot of side projects and some open-source contributions as well.
@@ -32,7 +33,7 @@ Your existing .gitconfig file likely looks like this:
 
 ```bash
 [user]
-name = Fayaz Ahmed
+name = Mohammed Zeeshan
 email = fayaz@personal-account.com
 
 [github]
@@ -58,7 +59,7 @@ Next, create two new files in your home directory or your preferred location: .g
 
 ```bash
 [user]
-name = Fayaz Ahmed
+name = Mohammed Zeeshan
 email = fayazara@personal-account.com
 
 [github]
@@ -72,7 +73,7 @@ sshCommand = ssh -i ~/.ssh/personal
 
 ```bash
 [user]
-name = Fayaz Ahmed
+name = Mohammed Zeeshan
 email = fayaz@work-account.com
 
 [github]

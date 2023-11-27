@@ -24,6 +24,7 @@ const { data: articles } = await useAsyncData("articles-home", () =>
   queryContent("/articles")
     .limit(3)
     .only(["title", "description", "date", "slug", "_path"])
+    .where({ draft: { $ne: true } }) // Exclude draft articles
     .find()
 );
 </script>
