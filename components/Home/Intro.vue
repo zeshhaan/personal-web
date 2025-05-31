@@ -29,7 +29,7 @@
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       I'm building an AI Travel Agent that simplifies complex bookings, saving
-      businesses hours each week. and my side project. I also run
+      businesses hours each week. and my side project
       <a
         href="https://getfeedbacks.co/"
         target="_blank"
@@ -47,19 +47,19 @@
 </template>
 
 <script setup lang="ts">
-const { scrambleGreeting } = useScrambleText()
-const greetingRef = ref<HTMLElement>()
+const { scrambleGreeting } = useScrambleText();
+const greetingRef = ref<HTMLElement>();
 
 onMounted(() => {
   if (greetingRef.value) {
     scrambleGreeting(greetingRef.value, {
       duration: 1.2,
       revealDelay: 0.2,
-      chars: 'upperCase',
-      speed: 1.2
-    })
+      chars: "upperCase",
+      speed: 1.2,
+    });
   }
-})
+});
 
 useSeoMeta({
   title: "Mohammed Zeeshan | Software Engineer",
