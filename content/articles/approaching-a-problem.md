@@ -1,5 +1,5 @@
 ---
-title: "A Simple Way I Approach Problems"
+title: "A simple way I approach problems"
 description: "Everyone has their own way of solving problems. This is what works for me so far—but I’m always open to learning better ways."
 date: "Oct 4, 2022"
 slug: "approaching-a-problem"

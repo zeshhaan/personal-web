@@ -25,6 +25,7 @@ const { data: articles } = await useAsyncData("articles-home", () =>
     .limit(3)
     .only(["title", "description", "date", "slug", "_path"])
     .where({ draft: { $ne: true } }) // Exclude draft articles
+    .sort({ date: -1 }) // Sort by date descending (most recent first)
     .find()
 );
 </script>

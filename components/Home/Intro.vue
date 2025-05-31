@@ -15,8 +15,8 @@
       Hello!
     </h1>
     <p class="text-gray-900 dark:text-gray-400">
-      I'm an IT consultant based in Ajman, UAE, building smart consumer
-      applications and AI agents that save people time and make life easier.
+      I'm an IT consultant based in Dubai, building smart consumer applications
+      and AI agents that save people time and make life easier.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       I focus on intuitive, efficient solutions that solve real-world problems
