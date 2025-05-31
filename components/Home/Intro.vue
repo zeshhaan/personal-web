@@ -9,6 +9,7 @@
       format="webp"
     />
     <h1
+      ref="greetingRef"
       class="text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100"
     >
       Hello!
@@ -45,7 +46,21 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+const { scrambleGreeting } = useScrambleText()
+const greetingRef = ref<HTMLElement>()
+
+onMounted(() => {
+  if (greetingRef.value) {
+    scrambleGreeting(greetingRef.value, {
+      duration: 1.2,
+      revealDelay: 0.2,
+      chars: 'upperCase',
+      speed: 1.2
+    })
+  }
+})
+
 useSeoMeta({
   title: "Mohammed Zeeshan | Software Engineer",
   description:

@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   experimental: {
     viewTransition: true,
   },
+  build: {
+    transpile: ["gsap"],
+  },
   modules: [
     "@nuxt/ui",
     "@nuxtjs/google-fonts",
