@@ -1,6 +1,6 @@
 {
+  "category": "software",
+  "description": "Search everything with it. I also use it for transforming strings on the fly, check currency rates, window management and more.",
   "name": "Raycast",
-  "description": "My used application in my computer. I don' think I've ever relied on a software as much as Raycast",
-  "url": "https://raycast.com/",
-  "category": "software"
+  "url": "https://raycast.com/"
 }

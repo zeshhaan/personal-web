@@ -1,14 +1,17 @@
 export default defineNuxtConfig({
+  site: {
+    url: "https://zeeshan.sh",
+  },
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
-    "nuxt-icon",
     "@nuxtjs/google-fonts",
     "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxt/content",
-    "@nuxthq/studio",
-    "@vueuse/nuxt"
+    ...(process.env.NODE_ENV === "development" ? ["@nuxthq/studio"] : []),
+    "@vueuse/nuxt",
+    "nuxt-icon",
   ],
   ui: {
     icons: ["heroicons", "lucide"],
@@ -28,6 +31,17 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: "github-dark",
+      langs: [
+        "elixir",
+        "bash",
+        "html",
+        "javascript",
+        "json",
+        "markdown",
+        "vue",
+        "typescript",
+        "yaml",
+      ],
     },
   },
   googleFonts: {

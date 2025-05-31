@@ -6,6 +6,18 @@ slug: "why-remote"
 draft: true
 ---
 
-I got to know Elixir when stumbling upon Stackoverflow Survey 2021. I was impressed by the metrics and the fact that it was the most loved programming language. I was curious to know more about it and started learning it. I started to follow #myElixirStatus in Twitter, and joined the folks at Slack, Discord and the official forum. I found the community very active and welcoming newbies. I briefly took part in dockyard's beta cohort lead by Brooklin Jazz last year but got quite busy with my full time job and other commitments. During those brief period of time, I took a lot of motivation and learning with me.
+In my early career, before getting into software industry, i used to work in office. Although it went well for a while, It wasn't my taste. One of the reason i got into software industry is because i can embrace this remote culture. There are quite a few reasons why i like working remotely. I will try to list them down here.
 
-This write up is a brief introduction to Elixir and why I chose to invest my time in it. I got to ask this question a lot of times, and I thought it would be a good idea to write it down.
+### 1. Introvert.
+
+Being introvert, It's hard to meet people face to face. I'm a very shy person and I feel comfortable talking to people online. I can express myself better when i'm not face to face with someone. I can think better and i can express myself better. I can be myself.
+
+### 2. No commute.
+
+I'm someone who likes to spend every bit of time being productive. I don't like to waste time. I don't even like to take a nap except during night or sick. Commuting comes with a lot of cost. I feel tired after commuting.
+
+3. No office politics.
+4. No distractions.
+5. No dress code.
+6. No fixed working hours.
+7. No fixed location.

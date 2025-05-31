@@ -14,37 +14,39 @@
       Hello!
     </h1>
     <p class="text-gray-900 dark:text-gray-400">
-      I'm Zeeshan, I'm a software engineer from Pune, India. I like to call
-      myself a web 2 programmer and a language learner. I loves writing code for
-      solving human problems and passionate about building world-class products
-      that care about user experience and making our lives easier. I specialize
-      in CSS, Javascript, & Vue. Coming from a design background, I love hacking
-      web using CSS and designing performant and accessible UIs.
+      I'm an IT consultant from Ajman, UAE with a passion for crafting consumer
+      application and AI agents that make people's lives easier and save time. I
+      specialize in building intuitive, efficient solutions that address
+      real-world problems.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
-      By day, I'm a Frontend Engineer at
+      My expertise spans web and mobile development, with a focus on creating
+      exceptional, accessible user experiences. When I'm not coding, I cherish
+      time with my family as a husband and father.
+    </p>
+    <p class="text-gray-900 dark:text-gray-400">
+      Currently, I'm working on exciting projects like an AI Travel Agent that
+      automates complex booking processes, and my side project
       <a
-        href="https://foodmarkethub.com"
+        href="https://getfeedbacks.co/"
         target="_blank"
         class="text-teal-500 tracking-tight"
-        >Food Market Hub</a
-      >, and by night (and weekends), I'm busy learning and writing Elixir code
-      or hanging out at discord, engaging with the programming community, and
-      <a
-        class="text-teal-500 tracking-tight"
-        href="https://t.me/+Vwcut-SnzEEwNjhl"
-        target="_blank"
-      >
-        helping friends learn to code.</a
-      >
+        >getfeedbacks.co</a
+      >, which helps businesses capture customer reviews through voice
+      recording.
+    </p>
+    <p class="text-gray-900 dark:text-gray-400">
+      I'm open to consulting on rewarding and impactful projects that challenge
+      conventional approaches. If you're looking for someone to help build
+      meaningful software solutions, I'd love to connect.
     </p>
   </div>
 </template>
 
 <script setup>
 useSeoMeta({
-  title: "Mohammed Zeeshan",
+  title: "Mohammed Zeeshan | Software Engineer",
   description:
-    "I'm Zeeshan, your friendly neighborhood software engineer from Pune, India. I specialize in building web applications and sites using CSS, Javascript & Vue.",
+    "Software consultant from UAE specializing in consumer software and AI agents. Building web and mobile applications that solve real problems and create meaningful impact.",
 });
 </script>

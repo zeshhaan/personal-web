@@ -1,6 +1,7 @@
 {
-  "name": "Fake plants",
+  "category": "desk",
   "description": "My desk was looking bland, so I bought some fake plants to make it look lively.",
-  "url": "https://www.amazon.in/gp/product/B08Q4FNYL6",
-  "category": "desk"
+  "name": "Fake plants",
+  "show": false,
+  "url": "https://www.amazon.in/gp/product/B08Q4FNYL6"
 }

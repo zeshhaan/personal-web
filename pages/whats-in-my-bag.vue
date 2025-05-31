@@ -18,7 +18,7 @@
         <AppUsesHeader title="Desk" />
         <AppUsesItem v-for="(item, id) in desk" :key="id" :item="item" />
       </ul>
-      <ul class="space-y-8">
+      <ul class="space-y-8" v-if="other.length">
         <AppUsesHeader title="Other" />
         <AppUsesItem v-for="(item, id) in other" :key="id" :item="item" />
       </ul>
@@ -28,7 +28,8 @@
 
 <script setup>
 const description =
-  "Software I use, gadgets I love, and other things I recommend. Here’s a big list of all of my favorite stuff.";
+  "Software I use, gadgets I love, and other things I recommend. Here's a big list of all of my favorite stuff.";
+
 useSeoMeta({
   title: "Things I use | Mohammed Zeeshan",
   description,
@@ -36,8 +37,16 @@ useSeoMeta({
 const { data: items } = await useAsyncData("uses", () =>
   queryContent("/uses").find()
 );
-const hardware = items.value.filter((item) => item.category === "hardware");
-const software = items.value.filter((item) => item.category === "software");
-const desk = items.value.filter((item) => item.category === "desk");
-const other = items.value.filter((item) => item.category === "others");
+const hardware = items.value.filter(
+  (item) => item.category === "hardware" && item.show !== false
+);
+const software = items.value.filter(
+  (item) => item.category === "software" && item.show !== false
+);
+const desk = items.value.filter(
+  (item) => item.category === "desk" && item.show !== false
+);
+const other = items.value.filter(
+  (item) => item.category === "others" && item.show !== false
+);
 </script>

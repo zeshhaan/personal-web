@@ -1,0 +1,6 @@
+{
+  "category": "software",
+  "description": "My coding assistant. I use it for auto complete, refactoring, naming variables, and more",
+  "name": "Github Copilot",
+  "thumbnail": "/uses/gh-copilot.png"
+}

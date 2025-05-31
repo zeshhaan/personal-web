@@ -1,12 +1,12 @@
 ---
 title: "What you shouldn't be doing with design system"
-description: "A brief note on what you shouldn't be doing with design system. A learning from my experience."
+description: "My views on what you shouldn't be doing with design system. A learning from my experience."
 date: "April 25, 2023"
 slug: "what-you-shouldnt-be-doing-with-design-system"
-draft: false
+draft: true
 ---
 
-A brief note on what you shouldn't be doing with design system. A learning from my experience.
+My views on what you shouldn't be doing with design system. A learning from my experience.
 
 ### What is a design system?
 
@@ -22,4 +22,4 @@ What you shouldn't be doing is to use a styled component library. This will intr
 
 ### My experience
 
-We struggled with this in our team when we started building v2 our product. We had a design system, but we used a styled component library. We had to override a lot of styles and though we achieved the desired result, it was not looking perfect. There was some or other imperfection in the UI. It wasn't a pleasant experience to design for a product that is used by millions of users. When we look at other UI's and how polished they are, we feel the itch to make ours look like that. But we can't, because it is a never ending process and not worth the effort. And we're already too late. We have to live with it.
+We struggled with this in our team when we started building v2.0 of our product. We had a design system, but we used a styled component library. We had to override a lot of styles and though we achieved the desired result, it was not looking perfect. There was some or other imperfection in the UI. It wasn't a pleasant experience to design for a product that is used by millions of users. When we look at other UI's and how polished they are, we feel the itch to make ours look like that. But we can't, because it is a never ending process and not worth the effort. And we're already too late. We have to live with it.

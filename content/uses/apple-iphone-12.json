@@ -3,5 +3,6 @@
   "description": "I dont usually invest and upgrade my phone frequently, I used my last phone for 5 years, I will use this one for 5 years too.",
   "url": "https://www.gsmarena.com/apple_iphone_12-10509.php",
   "category": "hardware",
-  "thumbnail": "/uses/apple-iphone-12.png"
+  "thumbnail": "/uses/apple-iphone-12.png",
+  "show": false
 }

@@ -1,6 +1,7 @@
 {
-  "name": "Tableplus",
+  "category": "software",
   "description": "The only sane SQL client I've seen for Mac.",
-  "url": "https://tableplus.com/",
-  "category": "software"
+  "name": "Tableplus",
+  "show": false,
+  "url": "https://tableplus.com/"
 }
