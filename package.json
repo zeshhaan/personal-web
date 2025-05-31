@@ -17,7 +17,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@unhead/vue": "^2.0.5",
     "nuxt": "^3.17.4",
-    "nuxt-icon": "^0.6.6",
+    "@nuxt/icon": "^1.13.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "unstorage": "^1.15.0",

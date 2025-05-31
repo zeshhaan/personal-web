@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     ...(process.env.NODE_ENV === "development" ? ["@nuxthq/studio"] : []),
     "@vueuse/nuxt",
-    "nuxt-icon",
+    "@nuxt/icon",
   ],
   ui: {
     icons: ["heroicons", "lucide"],
