@@ -22,8 +22,32 @@
 <script setup>
 const description = "Some random experiments with UI I do in my free time.";
 
+definePageMeta({
+  pageTransition: {
+    name: 'slide-up',
+    mode: 'out-in'
+  }
+});
+
 useSeoMeta({
   title: "Lab | Mohammed Zeeshan",
   description,
 });
 </script>
+
+<style scoped>
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-up-enter-from {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+}
+
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(-30px) scale(1.05);
+}
+</style>
