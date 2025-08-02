@@ -637,6 +637,11 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-3.1.1.tgz#af3aea7f1e52ec916d8b5c9dcc0f09d4c060a3fc"
   integrity sha512-5DGmA8FTdB2XbDeEwc/5ZXBl6UbBAyBOOLlPuBnZ/N1SwdH9Ii+cOX3tBROlDgcTXxjOYnLMVoKk9+FXAw0CJw==
 
+"@fontsource/geist@^5.2.5":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/geist/-/geist-5.2.6.tgz#eddaf5a5ced1eef158c5dd1b2ced90838c869f99"
+  integrity sha512-HKRFUn4fApQr9iGaVLUWG5vs+QYFqhKa5X7AFpT6Gey0Kx0ibvpFceMbMDDdlzzqPiGkvCuvYRUN55rvqXgibg==
+
 "@fontsource/inter@^5.2.5":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.2.6.tgz#2c705ea57d7af283a05bb1ca59fb0f06fc5de3be"
