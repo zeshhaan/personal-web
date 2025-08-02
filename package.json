@@ -17,15 +17,13 @@
     "@nuxtjs/fontaine": "^0.4.2",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@unhead/vue": "^2.0.5",
-    "nuxt": "^3.17.4",
+    "nuxt": "^4.0.2",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "unstorage": "^1.15.0",
     "yarn-upgrade-all": "^0.7.2"
   },
   "dependencies": {
-    "@fontsource/inter": "^5.2.5",
-    "@fontsource/geist": "^5.2.5",
     "@iconify-json/lucide": "^1.1.188",
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.16.0",
