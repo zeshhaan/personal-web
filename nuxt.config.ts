@@ -1,7 +1,9 @@
 export default defineNuxtConfig({
   site: {
     url: "https://zeeshan.sh",
+    name: "Mohammed Zeeshan",
   },
+  compatibilityDate: "2025-08-02",
   devtools: { enabled: true },
   experimental: {
     viewTransition: true,
@@ -15,6 +17,7 @@ export default defineNuxtConfig({
     "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxt/content",
+    "nuxt-og-image",
     ...(process.env.NODE_ENV === "development" ? ["@nuxthq/studio"] : []),
     "@vueuse/nuxt",
     "@nuxt/icon",
@@ -54,7 +57,24 @@ export default defineNuxtConfig({
   googleFonts: {
     display: "swap",
     families: {
+      Geist: [300, 400, 500, 600, 700, 800],
       Inter: [400, 500, 600, 700, 800, 900],
+      
     },
+  },
+  ogImage: {
+    defaults: {
+      renderer: 'satori',
+      width: 1200,
+      height: 630,
+    },
+    fonts: [
+      'Geist:300',
+      'Geist:400',
+      'Geist:500',
+      'Geist:600',
+      'Geist:700',
+      'Geist:800',
+    ],
   },
 });

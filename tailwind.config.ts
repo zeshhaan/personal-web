@@ -19,6 +19,7 @@ module.exports = {
     fontFamily: {
       sans: [
         "Inter",
+        "Geist",
         "Avenir Next",
         "Roboto",
         "-apple-system",
