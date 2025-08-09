@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     transpile: ["gsap"],
   },
   nitro: {
+    preset: "deno",
     experimental: {
       wasm: true
     },
