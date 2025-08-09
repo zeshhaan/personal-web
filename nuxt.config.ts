@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   site: {
     name: "Mohammed Zeeshan",
+    url: process.env.NUXT_PUBLIC_SITE_URL || '',
   },
   runtimeConfig: {
     public: {
@@ -109,7 +110,8 @@ export default defineNuxtConfig({
         'sharp': false
       }
     },
-    // Allow the module to auto-detect host from request headers
-    host: undefined,
+    // Explicitly set host to ensure absolute URLs are correct on all deployments (e.g., Deno Deploy)
+    // Uses public runtime config env: NUXT_PUBLIC_SITE_URL (e.g., https://zeeshan.deno.dev)
+    host: process.env.NUXT_PUBLIC_SITE_URL || undefined,
   },
 });
