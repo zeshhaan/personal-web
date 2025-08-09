@@ -66,10 +66,33 @@ const formatDatetime = (dateString) => {
   return date.toISOString().split("T")[0];
 };
 
+// Get the article data to use in OG image
+const { data: article } = await useAsyncData(`article-${slug}`, () => 
+  queryContent(`/articles/${slug}`).findOne()
+)
+
+// Redirect if article not found
+if (!article.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Article not found' })
+}
+
+// Set SEO meta tags
 useSeoMeta({
-  ogImage: `https://fayazahmed.com/articles/${slug}.png`,
+  title: `${article.value.title} | Mohammed Zeeshan`,
+  description: article.value.description,
+  ogTitle: article.value.title,
+  ogDescription: article.value.description,
+  twitterTitle: article.value.title,
+  twitterDescription: article.value.description,
   twitterCard: "summary_large_image",
   articleAuthor: "Mohammed Zeeshan",
+});
+
+// Generate OG Image for the article
+defineOgImageComponent('Personal', {
+  ogTitle: article.value.title,
+  bottomLeft: 'Mohammed Zeeshan',
+  bottomRight: article.value.date,
 });
 </script>
 <style>
