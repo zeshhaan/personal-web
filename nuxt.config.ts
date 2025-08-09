@@ -11,6 +11,27 @@ export default defineNuxtConfig({
   build: {
     transpile: ["gsap"],
   },
+  nitro: {
+    experimental: {
+      wasm: true
+    },
+    rollupConfig: {
+      external: [
+        '@resvg/resvg-js-android-arm-eabi',
+        '@resvg/resvg-js-android-arm64', 
+        '@resvg/resvg-js-darwin-arm64',
+        '@resvg/resvg-js-darwin-x64',
+        '@resvg/resvg-js-linux-arm-gnueabihf',
+        '@resvg/resvg-js-linux-arm64-gnu',
+        '@resvg/resvg-js-linux-arm64-musl',
+        '@resvg/resvg-js-linux-x64-gnu',
+        '@resvg/resvg-js-linux-x64-musl',
+        '@resvg/resvg-js-win32-arm64-msvc',
+        '@resvg/resvg-js-win32-ia32-msvc',
+        '@resvg/resvg-js-win32-x64-msvc'
+      ]
+    }
+  },
   modules: [
     "@nuxt/ui",
     "@nuxtjs/google-fonts",
@@ -76,5 +97,12 @@ export default defineNuxtConfig({
       'Geist:700',
       'Geist:800',
     ],
+    compatibility: {
+      runtime: {
+        'resvg': 'wasm',
+        'chromium': false,
+        'sharp': false
+      }
+    }
   },
 });
