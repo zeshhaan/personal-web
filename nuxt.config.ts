@@ -1,7 +1,11 @@
 export default defineNuxtConfig({
   site: {
-    url: "https://zeeshan.sh",
     name: "Mohammed Zeeshan",
+  },
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
+    }
   },
   compatibilityDate: "2025-08-02",
   devtools: { enabled: true },
@@ -104,6 +108,8 @@ export default defineNuxtConfig({
         'chromium': false,
         'sharp': false
       }
-    }
+    },
+    // Allow the module to auto-detect host from request headers
+    host: undefined,
   },
 });
