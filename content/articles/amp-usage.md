@@ -23,3 +23,13 @@ I like the approach by David Kurshid, author of X-State, where he advocates for 
 
 ::TweetEmbed{tweet-id="1953516855404245431"}
 ::
+
+
+> If you’re learning how to play the guitar, you can watch as many YouTube videos as you want, you’re not gonna learn the guitar that way. You have to put your fingers on the strings to actually learn the motions. Programming has to be learned by actually typing.
+
+The legendary programmer and creator of Ruby on Rails, DHH shares the most phenomenal take on what AI takes away from programmers and how he approaches coding with AI:
+
+::TweetEmbed{tweet-id="1946247982833082623"}
+::
+
+That's it for now. Seems like the post deviated from the topic of AMP usage and got more into general agentic coding practices. But I think it's important to share my experience with AMP and how it has helped me in my coding journey. I look forward to sharing more about my journey with AMP and agentic coding in the future.
