@@ -3,7 +3,6 @@ title: "My AMP Usage"
 description: "My experience using the agentic coding tool, AMP."
 date: "Aug 10, 2025"
 slug: "amp-usage"
-updated_at: "Aug 10, 2025"
 draft: false
 tags: ["amp", "agentic-coding", "coding-assistant"]
 ---
