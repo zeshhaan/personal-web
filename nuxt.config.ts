@@ -8,6 +8,16 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
     }
   },
+  routeRules: {
+    // Tag pages configuration
+    '/articles/tags/**': {
+      sitemap: true, // Include in sitemap
+      prerender: false, // Generate at request time to handle dynamic tags
+      headers: {
+        'X-Robots-Tag': 'index, follow' // Allow indexing by search engines
+      }
+    }
+  },
   compatibilityDate: "2025-08-02",
   devtools: { enabled: true },
   experimental: {

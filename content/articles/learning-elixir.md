@@ -4,6 +4,7 @@ description: "A brief introduction to Elixir and why I chose it as my primary pr
 date: "Nov 23, 2023"
 slug: "why-elixir"
 draft: true
+tags: ["elixir", "functional-programming", "programming", "phoenix", "otp", "concurrency"]
 ---
 
 I got to know Elixir when stumbling upon Stackoverflow Survey 2021. I was impressed by the metrics and the fact that it was the most loved programming language. I was curious to know more about it and started learning it. I started to follow #myElixirStatus in Twitter, and joined the folks at Slack, Discord and the official forum. I found the community very active and welcoming newbies. I briefly took part in [Dockyard's](https://academy.dockyard.com/){:target="\_blank"} beta cohort lead by [Brooklin Myers](https://twitter.com/BrooklinJMyers){:target="\_blank"} last year but got quite busy with my full time job and other commitments. During those brief period of time, I took a lot of motivation and learning with me.

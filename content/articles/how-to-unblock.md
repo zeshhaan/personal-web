@@ -4,6 +4,7 @@ description: "Tips on how to unblock yourself when you are stuck"
 date: "Oct 4, 2022"
 slug: "how-to-unblock"
 draft: false
+tags: ["productivity", "mindset", "problem-solving", "career-advice"]
 ---
 
 Everyone gets stuck at some point. It's okay to get stuck. But it's not okay to stay stuck. Here are some tips on what helped me to unblock myself when I am stuck.

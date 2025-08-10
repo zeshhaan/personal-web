@@ -4,6 +4,7 @@ description: "Notes on keyword lists and maps in Elixir"
 date: "Mar 18, 2024"
 slug: "keyword-list-and-maps-in-elixir"
 draft: false
+tags: ["elixir", "data-structures", "programming", "functional-programming", "maps", "keyword-lists"]
 ---
 
 In Elixir, we have two data structures that are used to store key-value pairs: keyword lists and maps.

@@ -6,6 +6,7 @@ slug: "elixir-macros"
 draft: false
 updated_at: "May 31, 2025"
 update_reason: "Fix typo"
+tags: ["elixir", "macros", "programming", "functional-programming"]
 ---
 
 Continuing my elixir journey, I stumbled upon elixir macro while trying to program a function that converts number to string.

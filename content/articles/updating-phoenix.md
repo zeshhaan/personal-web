@@ -4,6 +4,7 @@ description: "I got stuck when I tried to update phoenix installer. Here is how 
 date: "December 9, 2023"
 slug: "how-to-update-phoenix"
 draft: false
+tags: ["elixir", "phoenix", "tutorial", "programming", "web-development", "installation"]
 ---
 
 Check your version of Phoenix installer

@@ -1,10 +1,11 @@
 ---
 title: "A simple way I approach problems"
-description: "Everyone has their own way of solving problems. This is what works for me so far—but I’m always open to learning better ways."
+description: "Everyone has their own way of solving problems. This is what works for me so far—but I'm always open to learning better ways."
 date: "Oct 4, 2022"
 slug: "approaching-a-problem"
 updated_at: "May 31, 2025"
 draft: false
+tags: ["problem-solving", "productivity", "mindset", "programming", "career-advice"]
 ---
 
 Everyone has their own way of approaching problems. For me, I prefer to start by visualizing the end result before diving into the work. This approach gives me both excitement and confidence, regardless of how complex the problem might be.

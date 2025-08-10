@@ -4,6 +4,7 @@ description: "My views on what you shouldn't be doing with design system. A lear
 date: "April 25, 2023"
 slug: "what-you-shouldnt-be-doing-with-design-system"
 draft: true
+tags: ["design-system", "ui", "frontend", "react", "tailwindcss", "best-practices"]
 ---
 
 My views on what you shouldn't be doing with design system. A learning from my experience.

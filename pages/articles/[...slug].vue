@@ -13,6 +13,11 @@
           <time :datetime="data.date">{{ data.date }}</time>
           <span v-if="data.readingTime">{{ data.readingTime }}</span>
         </div>
+        
+        <!-- Tags section -->
+        <section v-if="data.tags && data.tags.length > 0" class="mt-6" itemprop="keywords">
+          <AppTagList :tags="data.tags" />
+        </section>
       </header>
       
       <!-- Article content -->
@@ -44,6 +49,22 @@ useSeoMeta({
   ogDescription: data.value.description,
   twitterTitle: data.value.title,
   twitterDescription: data.value.description,
+  keywords: data.value.tags?.join(', '),
+})
+
+// Generate JSON-LD Article schema
+const articleSchema = useArticleSchema({
+  title: data.value.title,
+  description: data.value.description,
+  date: data.value.date,
+  tags: data.value.tags,
+  path: data.value._path,
+  image: data.value.image // Optional: if you have article images
+})
+
+// Inject JSON-LD schema into page head
+useHead({
+  script: [articleSchema]
 })
 
 // Generate OG Image for the article

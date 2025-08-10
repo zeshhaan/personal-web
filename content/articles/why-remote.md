@@ -4,6 +4,7 @@ description: "An article on why I like working remotely."
 date: "Nov 24, 2023"
 slug: "why-remote"
 draft: true
+tags: ["remote-work", "career-advice", "productivity", "work-life-balance", "lifestyle"]
 ---
 
 In my early career, before getting into software industry, i used to work in office. Although it went well for a while, It wasn't my taste. One of the reason i got into software industry is because i can embrace this remote culture. There are quite a few reasons why i like working remotely. I will try to list them down here.

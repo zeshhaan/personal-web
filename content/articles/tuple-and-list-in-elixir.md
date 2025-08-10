@@ -4,6 +4,7 @@ description: "Notes on list and tuples in Elixir"
 date: "Mar 18, 2024"
 slug: "tuple-and-list-in-elixir"
 draft: false
+tags: ["elixir", "data-structures", "programming", "functional-programming", "tuples", "lists"]
 ---
 
 Lists are of the form `[1,2,3,4,5]`

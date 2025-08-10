@@ -4,6 +4,7 @@ description: "Notes on Elixir Processes"
 date: "Apr 21, 2024"
 slug: "elixir-process"
 draft: false
+tags: ["elixir", "concurrency", "processes", "actor-model", "programming", "otp"]
 ---
 
 Elixir uses an actor model of concurrency. An actor is an independent process that shares nothing with any other process.
