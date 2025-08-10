@@ -9609,11 +9609,6 @@ vue-template-compiler@^2.7.14:
     de-indent "^1.0.2"
     he "^1.2.0"
 
-vue-tweet@^2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/vue-tweet/-/vue-tweet-2.3.3.tgz#d7cecc4ff3204800d5c825a9642e1512e0131c02"
-  integrity sha512-jU9EAEkFJbeJ0XGQH0QdbwgvrBl3LsrOppfCwijzBhyLrs7ibyf2JNLQhjGTLPa+w3a2uLqxhMGoh+/68tmNFg==
-
 vue-use-fixed-header@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-use-fixed-header/-/vue-use-fixed-header-2.0.3.tgz#ef36db25764de8dc976bcc870e439f13c3edcca6"

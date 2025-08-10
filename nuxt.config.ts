@@ -90,6 +90,9 @@ export default defineNuxtConfig({
         "yaml",
       ],
     },
+    markdown: {
+      mdc: true
+    }
   },
   googleFonts: {
     display: "swap",
